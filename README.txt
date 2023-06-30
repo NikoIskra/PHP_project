@@ -1,3 +1,4 @@
+News site using PHP, MySQL improved, JS validation, user login.
 Korisnici:
 Admin-
 Username:admin
