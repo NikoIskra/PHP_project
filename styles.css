@@ -1,0 +1,232 @@
+header {
+    background-color: red;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+.naslov {
+    color: red;
+}
+
+.naslov-clanka {
+    width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(244, 245, 246);
+}
+.naslov {
+    font-family: 'Roboto Slab', serif;
+    background-color: red;
+    font-size: 40px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: underline;
+    color: black;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    overflow: hidden;
+}
+.label {
+    background-color: red;
+    width: 70px;
+}
+.subtitle {
+    background-color: red;
+    width: 75px;
+}
+form {
+    border: 5px solid red;
+    border-radius: 20px;
+}
+button {
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid red;
+}
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.child {
+    width: 100px;
+}
+.child img {
+     max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    overflow: hidden;
+}
+
+.image-clanak img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    overflow: hidden;
+}
+
+.article-class {
+    width: 90%;
+    margin: auto;
+}
+
+.article-paragraph::first-letter  {
+    initial-letter: 2;
+}
+
+.kategorija {
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    width: 75px;
+}
+
+h1 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+hr {
+    color: gray;
+}
+
+.header-left {
+    vertical-align: bottom;
+    color: white;
+}
+
+.header-center {
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+
+nav {
+    margin-bottom: 50px;
+}
+
+.navbar {
+    list-style-type: none;
+    display: inline;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.navbar li {
+    float: left;
+    font-size: 20px;
+    width: 24%;
+    text-align: center;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+.navbar-border {
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+.first-section {
+    box-sizing: border-box;
+    min-height: 450px;
+    padding-bottom: 10px;
+}
+
+.first-section img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.first-section .first{
+    float: left;
+    width: 30%;
+    text-align: center;
+    margin-left: 2%;
+}
+
+.first-section .second {
+    float:left;
+    width: 30%;
+    margin-left: 3%;
+    margin-right: 3%;
+    text-align: center;
+}
+
+.first-section .third {
+    float: right;
+    width: 30%;
+    text-align: center;
+    margin-right: 2%;
+}
+
+.second-section {
+    box-sizing: border-box;
+    min-height: 10vh;
+}
+
+.second-section h2 {
+    color: red;
+}
+
+.second-section img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.second-section .first{
+    float: left;
+    width: 30%;
+    text-align: center;
+    margin-left: 2%;
+}
+
+.second-section .second {
+    float:left;
+    width: 30%;
+    margin-left: 3%;
+    margin-right: 3%;
+    text-align: center;
+
+}
+
+.second-section .third {
+    float: right;
+    width: 30%;
+    text-align: center;
+    margin-right: 2%;
+}
+
+
+footer {
+    padding-top: 0.5%;
+}
+
+.footer-left {
+    vertical-align: bottom;
+    color: gray;
+}

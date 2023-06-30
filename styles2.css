@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(244, 245, 246);
+}
+.naslov {
+    font-family: 'Roboto Slab', serif;
+    background-color: red;
+    font-size: 40px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: underline;
+    color: black;
+}
+img {
+    width: 100%;
+}
+.label {
+    background-color: red;
+    width: 70px;
+}
+.subtitle {
+    background-color: red;
+    width: 75px;
+}
+form {
+    border: 5px solid red;
+    border-radius: 20px;
+}
+button {
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid red;
+}
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.child {
+    width: 420px;
+}
+.child img {
+    height: 270px;
+}
